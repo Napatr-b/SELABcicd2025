@@ -1,9 +1,9 @@
 name: DevSecOps Pipeline
 on:
   push:
-    branches: [ main ,dev ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, dev ]
+    branches: [ main ]
 
 # TODO#0: Declare workflow permissions.
 # Hint: scanners need to (a) read code, (b) upload SARIF to Security tab,
